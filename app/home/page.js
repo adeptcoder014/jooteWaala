@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Header } from "../components/header";
+import { Hero } from "../components/hero";
 // import styles from "./page.module.css";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <div className="layout-container">
 
         <Header />
+        <Hero />
         {/* <Hero />
       <DisplayCard /> */}
       </div>

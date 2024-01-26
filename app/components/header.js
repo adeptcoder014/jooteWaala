@@ -28,15 +28,11 @@ export const Header = () => {
             </div>
             <div className="login-cart">
                 < Image
-                    src={'/logo.png'}
-                    width={42}
+                    src={'/login-cart.svg'}
+                    width={150}
                     height={42}
                 />
-                <h1 style={{
-                    fontSize: 14
-                }}>
-                    Login
-                </h1>
+             
             </div>
 
         </div>
