@@ -6,7 +6,7 @@ import { Navigation } from './navigation'
 import { useState } from 'react';
 
 
-export const Hero = () => {
+export const DailyOffer = () => {
     const [active, setActive] = useState(false)
 
     console.log('----------------------', active);

@@ -33,7 +33,7 @@ export const Navigation = () => {
                 {navLinks.map(x => {
                     return (
 
-                        <div className={"navigation-items {}"  } >
+                        <div className="navigation-items" >
 
                             <p>{x.title}</p>
                         </div>

@@ -1,20 +1,6 @@
-<svg width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_d_2528_34)">
-<circle cx="26.5" cy="26.5" r="22.5" fill="white" fill-opacity="0.09" shape-rendering="crispEdges"/>
-</g>
-<rect x="13" y="27.215" width="23" height="2" fill="#6A6A6A"/>
-<rect x="13.168" y="27.215" width="14.0867" height="2" transform="rotate(44 13.168 27.215)" fill="#6A6A6A"/>
-<rect x="11" y="28.0021" width="12.4108" height="2" transform="rotate(-51 11 28.0021)" fill="#6A6A6A"/>
-<defs>
-<filter id="filter0_d_2528_34" x="0" y="0" width="53" height="53" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset/>
-<feGaussianBlur stdDeviation="2"/>
-<feComposite in2="hardAlpha" operator="out"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.75 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2528_34"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2528_34" result="shape"/>
-</filter>
-</defs>
+<svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="22.5" cy="22.5" r="22.5" fill="white" fill-opacity="0.09"/>
+<rect x="9" y="23.215" width="23" height="2" fill="#6A6A6A"/>
+<rect x="9.16797" y="23.215" width="14.0867" height="2" transform="rotate(44 9.16797 23.215)" fill="#6A6A6A"/>
+<rect x="7" y="24.0021" width="12.4108" height="2" transform="rotate(-51 7 24.0021)" fill="#6A6A6A"/>
 </svg>

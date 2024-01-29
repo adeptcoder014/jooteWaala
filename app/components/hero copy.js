@@ -3,76 +3,51 @@
 
 import Image from 'next/image'
 import { Navigation } from './navigation'
-import { useState } from 'react';
-
 
 export const Hero = () => {
-    const [active, setActive] = useState(false)
 
-    console.log('----------------------', active);
+
     return (
-        <>
-            <style>
+        <div className='hero-container'>
+            <div style={{
+                display: 'flex',
+                alignContent: 'center',
+                justifyContent: 'center'
 
-            </style>
-
-            <div class="angry-grid">
-                <div id="item-0">
-                    <div className="hero-top-card">
-                        <h1
-                            className='responsive-hero-title'
-                            style={{
-                                // fontSize: '100px',
-                                // textAlign: 'center',
-                                // padding: 15
-                            }}
-                        >
-                            Modern Leather Shoes
-                        </h1>
+            }}>
 
 
+                {/* ============================================================= */}
+                {/* ============================================================= */}
+                <div style={{
+                    display: 'flex'
+                }}>
 
 
-                        {/* <div className='grid-item-product-scroller'>
-                        </div> */}
+                    <div class="grid-container">
 
-                        {/* <div style={{
-                            display: 'flex',
-                            // alignContent: 'space-between',
-                            // justifyContent: 'space-between',
-                            backgroundColor: 'greenyellow'
-                        }}> */}
-                        {/* <div style={{
-                            backgroundColor: "red",
-                            margin: 'auto 50px'
-                        }}> */}
-
-                        <div style={{
-                            display: 'flex',
-                            alignContent: 'space-between',
-                            justifyContent: 'space-between',
-                        }}>
-
+                        <div  className='grid-item-product-scroller'>
                             <Image
-                                className='hide-on-mobile'
-                                style={{
-                                    marginLeft: 88,
-                                    position: 'absolute',
-                                    // left: '-8%',
-                                }}
                                 src={'/hero-product_1.png'}
                                 width={520}
                                 height={470}
 
                             />
-
-                            {/* </div> */}
-                            {/* <div style={{
-                            backgroundColor: "lightGreen",
-                        }}> */}
-                            <div className='grid-item-explore-more'>
+                        </div>
 
 
+                        <div className='grid-item-explore-more'>
+
+
+
+                            <div
+
+                                style={{
+                                    // padding: 90,
+                                    backgroundColor: 'green',
+                                    // width: 701,
+                                    // height: 364
+                                }}>
                                 <p
                                     style={{
                                         fontSize: 19,
@@ -89,21 +64,77 @@ export const Hero = () => {
                                         Explore more
                                     </p>
                                 </div>
-
-
-
-
                             </div>
-                            {/* </div> */}
-                            {/* </div> */}
+
+
+
 
                         </div>
 
+                        <div class="hero-grid-item-discount grid-item-discount">
+                            <div style={{
+                            }}>
+                                <h1 style={{
+                                    color: '#836A24'
+                                }}>
+
+                                    Leather Handbag
+                                </h1>
+                                <h1 style={{
+                                    color: '#836A24'
+                                }}>
+
+                                    50% OFF
+                                </h1>
+                                <div className='hero-button-2'>
+                                    <p>
+
+                                        Explore more
+                                    </p>
+                                </div>
+                            </div>
+                            <Image
+                                src={'/handbag.png'}
+                                width={220}
+                                height={210}
+
+                            />
+
+                        </div>
+
+                        <div className="hero-top-card  grid-item-top-card">
+                            <h1
+                                style={{
+                                    fontSize: 100,
+                                    textAlign: 'center',
+                                    padding: 15
+                                }}
+                            >
+                                Modern Leather Shoes
+                            </h1>
+
+
+
+                        </div>
+
+
                     </div>
                 </div>
-                <div id="item-1">
+                {/* ============================================================= */}
+                {/* ============================================================= */}
 
-                    <div className="hero-grid-item-scroller">
+            </div>
+
+            <div style={{
+                display: 'flex',
+                alignContent: 'space-between',
+                justifyContent: 'space-between',
+                marginTop: 10
+
+            }}>
+                <div class="hero-grid-container">
+
+                    <div class="hero-grid-item-scroller">
                         <div style={{
                             display: 'flex',
                             alignItems: 'center',
@@ -111,7 +142,7 @@ export const Hero = () => {
                             justifyContent: 'space-around',
                             gap: 8,
                             // height: 15,
-                            // width: '85%',
+                            width: '95%',
                             // backgroundColor: 'lightGreen'
 
                         }}>
@@ -164,43 +195,11 @@ export const Hero = () => {
                         </div>
 
                     </div>
+
                 </div>
-                <div id="item-2">
-                    <div class="hero-grid-item-discount grid-item-discount">
-                        <div style={{
-                        }}>
-                            <h1 style={{
-                                color: '#836A24'
-                            }}>
-
-                                Leather Handbag
-                            </h1>
-                            <h1 style={{
-                                color: '#836A24'
-                            }}>
-
-                                50% OFF
-                            </h1>
-                            <div className='hero-button-2'>
-                                <p>
-
-                                    Explore more
-                                </p>
-                            </div>
-                        </div>
-                        <Image
-                            src={'/handbag.png'}
-                            width={220}
-                            height={210}
-
-                        />
-
-                    </div></div>
             </div>
 
-
-        </>
-
+        </div>
 
     )
 }
