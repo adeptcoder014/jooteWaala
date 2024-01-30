@@ -41,7 +41,7 @@ export const DisplayCard = () => {
                     onClick={() => { setActive((previousState) => !previousState) }}
                 >
                     <div className='display-card-image'>
-                        <Image src={'/belt.png'} width={100} height={70} />
+                        <Image src={'/belt-icon.png'} width={100} height={70} />
                     </div>
                     <div style={{ marginTop: 15 }}>
                         <h2>{x.title}</h2>

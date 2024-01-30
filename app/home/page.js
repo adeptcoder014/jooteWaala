@@ -8,13 +8,13 @@ import { DailyOffer } from "../components/dailyOffer";
 export default function Home() {
   return (
     <>
-      <div className="layout-container">
+      {/* <div className="layout-container"> */}
 
-        <Header />
-        <Hero />
-        <DisplayCard />
-        {/* <DailyOffer /> */}
-      </div>
+        {/* <Header /> */}
+        {/* <Hero /> */}
+        {/* <DisplayCard /> */}
+        <DailyOffer />
+      {/* </div> */}
 
     </>
   );
