@@ -22,6 +22,9 @@ export const LatestArrivals = () => {
                 </div>
 
                 <Scroller />
+                <div className='open-store-btn'>
+                    <p>Open Store</p>
+                </div>
             </div>
 
         </>
