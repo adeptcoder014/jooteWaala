@@ -639,6 +639,7 @@ a {
   border-radius: 8%;
   margin-top: 10%;
 }
+
 .dailyOffer-product-1 {
   background-color: #FDEDD6;
   width: 300px;
@@ -674,4 +675,126 @@ a {
   display: block; */
   margin: 10%;
 
+}
+
+/* PromotionalDisplay  ====================== */
+.PromotionalDisplay-container {
+  /* background-color: #342d2d; */
+  display: flex;
+  align-content: space-around;
+  justify-content: space-around;
+
+
+
+}
+
+.PromotionalDisplay-description {
+  background-color: #d7c9c9;
+  width: 61%;
+  padding: 10%;
+}
+
+@media screen and (max-width: 768px) {
+  .PromotionalDisplay-container {
+    flex-direction: column;
+
+
+  }
+
+  .PromotionalDisplay-product {
+    margin: auto;
+  }
+
+  .PromotionalDisplay-description {
+    margin: auto;
+    width: 100%;
+
+  }
+
+}
+
+
+
+/* ====================== */
+
+.latest-arrivals-container {
+  background-color: #d7c9c9;
+  /* width: 61%; */
+  /* padding: 10%; */
+}
+
+.latest-arrivals-heading-container {
+  background-color: #75d797;
+
+}
+
+@media screen and (max-width: 768px) {
+  .latest-arrivals-container {
+    flex-direction: column;
+
+
+  }
+}
+
+
+
+/* Add this CSS to your stylesheet or use a styled-component */
+
+/* Add this CSS to your stylesheet or use a styled-component */
+
+.horizontal-scroll-container {
+  background-color: #ff6060;
+  overflow: auto;
+  white-space: nowrap;
+  /* Prevent content from wrapping to the next line */
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+}
+
+.horizontal-scroll-content {
+  /* width: 54%; */
+  background-color: #F5F5F5;
+  border-radius: 16px;
+  margin-right: 3%;
+}
+
+.horizontal-scroll-content>p {
+  font-size: 1.4vw
+}
+
+.productDisplayCarouselImage {
+  height: 100%;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  .productDisplayCarouselImage {
+    max-width : 100%;
+  }
+
+
+  .horizontal-scroll-content {
+    max-height: 220px;
+  }
+}
+
+
+
+.product-discount-circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #FFD673;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-size: 18px;
+  font-weight: bolder;
+  text-align: center;
+
+  /* padding: 11%; */
 }
