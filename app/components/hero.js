@@ -12,9 +12,6 @@ export const Hero = () => {
     console.log('----------------------', active);
     return (
         <>
-            <style>
-
-            </style>
 
             <div class="angry-grid">
                 <div id="item-0">
@@ -30,22 +27,6 @@ export const Hero = () => {
                             Modern Leather Shoes
                         </h1>
 
-
-
-
-                        {/* <div className='grid-item-product-scroller'>
-                        </div> */}
-
-                        {/* <div style={{
-                            display: 'flex',
-                            // alignContent: 'space-between',
-                            // justifyContent: 'space-between',
-                            backgroundColor: 'greenyellow'
-                        }}> */}
-                        {/* <div style={{
-                            backgroundColor: "red",
-                            margin: 'auto 50px'
-                        }}> */}
 
                         <div style={{
                             display: 'flex',
@@ -66,10 +47,7 @@ export const Hero = () => {
 
                             />
 
-                            {/* </div> */}
-                            {/* <div style={{
-                            backgroundColor: "lightGreen",
-                        }}> */}
+
                             <div className='grid-item-explore-more'>
 
 
@@ -94,8 +72,7 @@ export const Hero = () => {
 
 
                             </div>
-                            {/* </div> */}
-                            {/* </div> */}
+
 
                         </div>
 
@@ -110,9 +87,7 @@ export const Hero = () => {
                             alignContent: 'space-between',
                             justifyContent: 'space-around',
                             gap: 8,
-                            // height: 15,
-                            // width: '85%',
-                            // backgroundColor: 'lightGreen'
+
 
                         }}>
 
@@ -174,13 +149,10 @@ export const Hero = () => {
                             }}>
 
                                 Leather Handbag
-                            </h1>
-                            <h1 style={{
-                                color: '#836A24'
-                            }}>
 
                                 50% OFF
                             </h1>
+
                             <div className='hero-button-2'>
                                 <p>
 
@@ -195,7 +167,8 @@ export const Hero = () => {
 
                         />
 
-                    </div></div>
+                    </div>
+                </div>
             </div>
 
 

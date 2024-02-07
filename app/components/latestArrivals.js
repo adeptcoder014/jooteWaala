@@ -22,8 +22,15 @@ export const LatestArrivals = () => {
                 </div>
 
                 <Scroller />
-                <div className='open-store-btn'>
-                    <p>Open Store</p>
+                <div style={{
+                    margin: 'auto',
+                    display: 'flex',
+                    justifyContent: 'center'
+                }}>
+
+                    <button className='open-store-btn'>
+                        <p>Open Store</p>
+                    </button>
                 </div>
             </div>
 

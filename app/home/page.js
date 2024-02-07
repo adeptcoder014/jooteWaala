@@ -13,17 +13,18 @@ export default function Home() {
   return (
     <>
       {/* <div className="layout-container"> */}
-   
+      <div>
 
 
         <Header />
         <Hero />
-        // <DisplayCard />
-        {/* <DailyOffer /> */}
+        <DisplayCard />
+        <DailyOffer />
         <PromotionalDisplay />
         <LatestArrivals />
         <NewsLetter />
         <HurryUpCard />
+      </div>
       {/* </div> */}
 
     </>

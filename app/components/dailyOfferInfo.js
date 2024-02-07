@@ -15,18 +15,25 @@ export const DailyOfferInfo = () => {
 
 
             <div className="dailyOffer-info">
-                <h1>Daily Offer</h1>
-                <p style={{
-                    marginTop:35
-                }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquam a nulla sed aliquam. Morbi ornare in justo mattis scelerisque. Suspendisse et tellus at justo.</p>
+                <h1
+                    style={{
+                        color: "grey"
+                    }}
+                >
+                    Daily Offer
+                </h1>
+                <p
+                    style={{
+                        marginTop: 35,
+                        color: "grey"
+                    }}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquam a nulla sed aliquam. Morbi ornare in justo mattis scelerisque. Suspendisse et tellus at justo.
+                </p>
                 <div className='hero-button'>
                     <p>
-
                         Explore more
                     </p>
                 </div>
-
-
             </div>
 
         </>

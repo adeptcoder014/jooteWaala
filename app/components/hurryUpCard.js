@@ -3,9 +3,7 @@
 "use client"; // This is a client component 👈🏽
 
 
-import Image from 'next/image'
-import ProductDisplayCard from './productDisplayCard';
-import CountdownTimer from './CountdownTimer ';
+
 import React, { useState, useEffect } from 'react';
 
 

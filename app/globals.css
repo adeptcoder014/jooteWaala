@@ -71,7 +71,7 @@
 
 html,
 body {
-  width: 95vw;
+  /* width: 95vw; */
   /* overflow-x: hidden; */
 }
 
@@ -130,8 +130,12 @@ a {
 /* Navigation bar ================================================================== */
 
 .layout-container {
-  /* background-color: #ef3d3d; */
-  max-width: 1536px;
+  background-color: #ef3d3d;
+  /* max-width: 1536px;
+  box-sizing: content-box;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
 
 }
 
@@ -586,25 +590,44 @@ a {
 
 
 .dailyOffer-card-container {
-  /* background-color: red; */
+  /* background-color: lightcoral; */
   width: 100vw;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   /* flex-flow: row wrap; */
 
 }
 
 .dailyOffer-info {
   background-color: white;
-  flex-basis: calc(50.33% - 20px);
   padding: 5%;
-
-
+  width: 80%
 }
 
 @media screen and (max-width: 768px) {
   .dailyOffer-info {
-    flex-basis: 100%;
+
+    /* flex-basis: calc(50.33% - 20px); */
+  }
+
+  .dailyOffer-card-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* .responsive-centering {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+  } */
+}
+
+@media screen and (min-width: 768px) {
+  .dailyOffer-info {
+    /* flex-basis: 100%; */
+
   }
 
 }
@@ -618,7 +641,8 @@ a {
     align-content: center;
     justify-content: center;
     /* background-color: rgb(71, 56, 56); */
-    padding: 0px 45px
+    margin: auto;
+    /* padding: 0px 45px */
   }
 }
 
@@ -628,7 +652,8 @@ a {
   align-content: space-evenly;
   justify-content: space-evenly;
   /* flex-direction: column; */
-  flex-grow: 2;
+  /* flex-grow: 2; */
+  /* width: 100%; */
 }
 
 
@@ -637,7 +662,7 @@ a {
   width: 300px;
   height: 81%;
   border-radius: 8%;
-  margin-top: 10%;
+  margin: 10%;
 }
 
 .dailyOffer-product-1 {
@@ -718,7 +743,7 @@ a {
 /* ====================== */
 
 .latest-arrivals-container {
-  background-color: #d7c9c9;
+  /* background-color: #d7c9c9; */
   /* width: 61%; */
   /* padding: 10%; */
 }
@@ -800,7 +825,8 @@ a {
 .open-store-btn {
   /* width: 78px; */
   height: 39px;
-  border-radius: 14px;
+  border-radius: 25px;
+  border: none;
   background-color: #FFD673;
   display: flex;
   align-items: center;
@@ -809,12 +835,14 @@ a {
   font-size: 18px;
   font-weight: bolder;
   text-align: center;
+  padding: 30px;
 }
 
 /* news-letter ====================== */
 .news-letter-container {
   background-color: #7bb6ea;
   margin: auto;
+  padding: 125px;
 }
 
 .news-letter-input {

@@ -19,7 +19,7 @@ export const NewsLetter = () => {
 
                 <div
                     style={{
-                        backgroundColor: 'red',
+                        // backgroundColor: 'red',
                         // width: '22%',
                         display: 'flex',
                         justifyContent: 'center',
