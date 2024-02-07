@@ -7,24 +7,25 @@ import { PromotionalDisplay } from "../components/promotionalDisplay";
 import { LatestArrivals } from "../components/latestArrivals";
 import { NewsLetter } from "../components/newsLetter";
 import { HurryUpCard } from "../components/hurryUpCard";
+import { Footer } from "../components/footer";
 // import styles from "./page.module.css";
 
 export default function Home() {
   return (
     <>
       {/* <div className="layout-container"> */}
-      <div>
 
 
-        <Header />
-        <Hero />
-        <DisplayCard />
-        <DailyOffer />
-        <PromotionalDisplay />
-        <LatestArrivals />
-        <NewsLetter />
-        <HurryUpCard />
-      </div>
+
+      <Header />
+      <Hero />
+        // <DisplayCard />
+      <DailyOffer />
+      <PromotionalDisplay />
+      <LatestArrivals />
+      <NewsLetter />
+      <HurryUpCard />
+      <Footer />
       {/* </div> */}
 
     </>
