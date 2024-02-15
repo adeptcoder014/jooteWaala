@@ -51,35 +51,44 @@ export const HurryUpCard = () => {
 
     // ============================================================
 
-    const targetTime = new Date('2024-02-07T23:59:59').getTime();
+    const targetTime = new Date('2024-02-15T23:59:59').getTime();
 
     return (
         <>
-            <div className='hurry-up-container'>
+            <div className='grid grid-cols-1 sm:grid-cols-2'>
+
+
                 <div
                     style={{
                         display: 'flex',
                         flexDirection: 'column',
                         alignContent: 'center',
                         justifyContent: 'center',
-                        alignItems: "center"
+                        alignItems: "center",
+                        backgroundColor: '#FFD873'
+
                     }}
                 >
 
-                    <h1>Spring Offer</h1>
+                    <h1 class='text-lg'>Spring Offer</h1>
                     <CountdownTimer targetTime={targetTime} />
                     <button className='hurry-up-btn'>
                         Visit page
                     </button>
                 </div>
-                <div>
+                <div
+                    style={{
+                        backgroundColor: '#FFD873',
+                        display: 'flex',
+                        justifyContent: 'center',
+
+                    }}>
                     <img
                         src={'/offerProduct.png'}
                     />
                 </div>
+            </div>
 
-
-            </div >
         </>
     );
 };

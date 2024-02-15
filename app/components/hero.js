@@ -140,8 +140,9 @@ export const Hero = () => {
 
                     </div>
                 </div>
+                
                 <div id="item-2">
-                    <div class="hero-grid-item-discount grid-item-discount">
+                    <div class="hero-grid-item-discount grid-item-discount sm:none">
                         <div style={{
                         }}>
                             <h1 style={{

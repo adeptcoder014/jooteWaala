@@ -34,6 +34,7 @@ export const DisplayCard = () => {
     console.log('----------------------', active);
     return (
         <div className='display-card-container'>
+            
             {displayCardData.map(x => (
 
                 <div

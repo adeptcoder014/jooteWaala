@@ -773,7 +773,7 @@ a {
 /* Add this CSS to your stylesheet or use a styled-component */
 
 .horizontal-scroll-container {
-  background-color: #ff6060;
+  /* background-color: #ff6060; */
   overflow: auto;
   white-space: nowrap;
   /* Prevent content from wrapping to the next line */
@@ -789,9 +789,9 @@ a {
   margin-right: 3%;
 }
 
-.horizontal-scroll-content>p {
+/* .horizontal-scroll-content>p {
   font-size: 1.4vw
-}
+} */
 
 .productDisplayCarouselImage {
   height: 100%;

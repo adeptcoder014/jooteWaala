@@ -5,6 +5,13 @@ export const Footer = () => {
 
         <>
 
+            {/* <div class="sm:text-left lg:text-center lg:bg-purple"> */}
+            <div class="">
+                <h1 class='text-center sm:text-left md:text-right'>hello</h1>
+            </div >
+
+
+
 
             <footer class="bg-white dark:bg-gray-900">
                 <div class="mx-auto w-full max-w-screen-xl">
@@ -113,6 +120,7 @@ export const Footer = () => {
                     </div>
                 </div>
             </footer>
+
 
 
 

@@ -8,6 +8,7 @@ import { LatestArrivals } from "../components/latestArrivals";
 import { NewsLetter } from "../components/newsLetter";
 import { HurryUpCard } from "../components/hurryUpCard";
 import { Footer } from "../components/footer";
+import { DemoComponent } from "../components/test";
 // import styles from "./page.module.css";
 
 export default function Home() {
@@ -17,16 +18,17 @@ export default function Home() {
 
 
 
-      <Header />
-      <Hero />
-        // <DisplayCard />
-      <DailyOffer />
-      <PromotionalDisplay />
+      {/* <Header /> */}
+      {/* <Hero /> */}
+      {/* <DisplayCard /> */}
+      {/* <DailyOffer /> */}
+      {/* <PromotionalDisplay /> */}
       <LatestArrivals />
-      <NewsLetter />
-      <HurryUpCard />
-      <Footer />
+      {/* <NewsLetter /> */}
+      {/* <HurryUpCard /> */}
+      {/* <Footer /> */}
       {/* </div> */}
+      {/* <DemoComponent /> */}
 
     </>
   );

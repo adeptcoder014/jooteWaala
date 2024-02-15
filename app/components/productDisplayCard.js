@@ -82,7 +82,7 @@ const ProductDisplayCard = ({ styleObj }) => {
                     <div>
 
 
-                        <p >
+                        <p class='text-sm md:text-xl'>
                             Brown leather shoes #2524
                         </p>
                         <p >
