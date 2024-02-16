@@ -3,17 +3,19 @@ import Image from 'next/image'
 
 
 const ProductDisplayCard = ({ styleObj }) => {
-    console.log('styleObj ', styleObj);
+    // console.log('styleObj ', styleObj);
     return (
         <>
-            <div className="horizontal-scroll-content"
+            <div className=""
                 style={{
                     backgroundColor: styleObj.color,
                     flex: styleObj.flex,
                     display: 'flex',
                     flexDirection: 'column',
                     padding: '3%',
-                    borderRadius: 16
+                    borderRadius: 16,
+                    width: styleObj.width,
+                    height: '100%'
                     // height: 470
                 }}
             >
@@ -79,19 +81,27 @@ const ProductDisplayCard = ({ styleObj }) => {
                     // alignItems:'baseline'
                 }}>
 
-                    <div>
+                    <div style={{
+                        alignSelf: 'center'
+                    }}>
 
 
-                        <p class='text-sm md:text-xl'>
+                        <p style={{
+                            fontWeight: 'bolder',
+                            color: '#575757'
+                        }}>
                             Brown leather shoes #2524
                         </p>
-                        <p >
+                        <p style={{
+                            fontWeight: 'bold',
+                            color: 'black'
+                        }}>
                             $ 150
                         </p>
                     </div>
                     <img
                         style={{
-                            width: 48
+                            width: '50px'
                         }}
                         className='productDisplayCarouselImage'
                         src={'/cartIcon.svg'}

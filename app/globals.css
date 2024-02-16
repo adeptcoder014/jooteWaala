@@ -214,6 +214,27 @@ a {
 
 }
 
+
+.hero-grid {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(2, 1fr);
+  /* gap: 10px; */
+  width: 100%;
+
+}
+
+@media (max-width: 960px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+
+
+
 .hero-grid-container {
   display: grid;
   grid-template-rows: auto;
@@ -225,14 +246,14 @@ a {
 
 .hero-grid-item-discount {
   background-color: #FFD873;
-  padding: 5px;
+  padding: 2%;
   /* text-align: center; */
   border-radius: 38px;
   display: flex;
   align-items: center;
   justify-content: center;
   align-content: flex-end;
-  width: 90%;
+  /* width: 60%; */
   height: 220px;
   margin: 0px 45px;
 }
@@ -280,14 +301,13 @@ a {
 
 .hero-button-2 {
   border-radius: 24px;
-  padding: 19px;
-  width: 150px;
+  padding: 3% 7%;
+  width: fit-content;
   color: #2e3547;
   background-color: #ffffff;
-
-  font-size: 17px;
+  /* font-size: 17px; */
   font-weight: 600;
-  margin-top: 45px;
+   /* margin-top: 45px; */
 }
 
 #hero-product {
@@ -754,7 +774,10 @@ a {
 }
 
 .latest-arrivals-heading-container {
-  background-color: #75d797;
+  /* background-color: #75d797; */
+  padding: 1% 4%;
+
+
 
 }
 
@@ -773,20 +796,28 @@ a {
 /* Add this CSS to your stylesheet or use a styled-component */
 
 .horizontal-scroll-container {
-  /* background-color: #ff6060; */
-  overflow: auto;
-  white-space: nowrap;
+
   /* Prevent content from wrapping to the next line */
   border: 1px solid #ccc;
-  padding: 10px;
   display: flex;
 }
+
+@media screen and (max-width: 768px) {
+  .horizontal-scroll-container {
+    padding: 5%;
+    background-color: #ff6060;
+    overflow: auto;
+    white-space: nowrap;
+  }
+}
+
 
 .horizontal-scroll-content {
   /* width: 54%; */
   background-color: #F5F5F5;
   border-radius: 16px;
-  margin-right: 3%;
+  margin-right: 1%;
+  width: 150px;
 }
 
 /* .horizontal-scroll-content>p {
@@ -807,22 +838,23 @@ a {
 
 
   .horizontal-scroll-content {
-    max-height: 220px;
+    /* max-height: 220px; */
   }
 }
 
 
 
 .product-discount-circle {
-  width: 78px;
-  height: 39px;
+  /* width: 78px; */
+  padding: 2px 10px;
+  /* height: 39px; */
   border-radius: 14px;
   background-color: #FFD673;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #000;
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: bolder;
   text-align: center;
 }
@@ -896,4 +928,50 @@ a {
   border: none;
   font-weight: bold;
   margin-top: 45px;
+}
+
+
+
+.middleBox {
+  width: 90%;
+  /* height: 200px; */
+  background-color: aliceblue;
+}
+
+.responsive-text {
+  font-size: 1vw;
+}
+
+
+
+
+.demo-grid {
+  overflow: auto;
+  white-space: nowrap;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  width: 100%;
+  padding: 50px;
+}
+
+.demo-grid-item {
+  /* background-color: antiquewhite; */
+  padding: 3%;
+  /* width: 300px; */
+  align-items: center;
+
+}
+
+@media screen and (max-width: 768px) {
+  .demo-grid {
+    /* grid-template-columns: repeat(1, 1fr); */
+  }
+}
+
+.center {
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }

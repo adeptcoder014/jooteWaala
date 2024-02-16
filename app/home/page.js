@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Header } from "../components/header";
-import { Hero } from "../components/hero";
+import { Hero } from "../components/heroCopy";
 import { DisplayCard } from "../components/displayCard";
 import { DailyOffer } from "../components/dailyOffer";
 import { PromotionalDisplay } from "../components/promotionalDisplay";
@@ -19,16 +19,16 @@ export default function Home() {
 
 
       {/* <Header /> */}
-      {/* <Hero /> */}
+      <Hero />
       {/* <DisplayCard /> */}
       {/* <DailyOffer /> */}
       {/* <PromotionalDisplay /> */}
-      <LatestArrivals />
+      {/* <LatestArrivals /> */}
       {/* <NewsLetter /> */}
       {/* <HurryUpCard /> */}
       {/* <Footer /> */}
       {/* </div> */}
-      {/* <DemoComponent /> */}
+      <DemoComponent />
 
     </>
   );
