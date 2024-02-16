@@ -112,13 +112,15 @@ const HeroCarousel = () => {
 
                         gap: 8,
                         height: 15,
+                        width: '100%'
+
 
                     }}
                 >
 
                     <div style={{
-                        display:'flex',
-                        justifyContent:'space-around'
+                        display: 'flex',
+                        justifyContent: 'space-around',
                     }}>
 
 

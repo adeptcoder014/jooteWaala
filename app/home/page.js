@@ -19,8 +19,8 @@ export default function Home() {
 
 
       {/* <Header /> */}
-      <Hero />
-      {/* <DisplayCard /> */}
+      {/* <Hero /> */}
+      <DisplayCard />
       {/* <DailyOffer /> */}
       {/* <PromotionalDisplay /> */}
       {/* <LatestArrivals /> */}
