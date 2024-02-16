@@ -4,6 +4,7 @@
 import Image from 'next/image'
 import { Navigation } from './navigation'
 import { useState } from 'react';
+import HeroCarousel from './heroCarousel';
 
 
 export const Hero = () => {
@@ -78,7 +79,7 @@ export const Hero = () => {
 
                     </div>
                 </div>
-                <div id="item-1">
+                {/* <div id="item-1">
 
                     <div className="hero-grid-item-scroller">
                         <div style={{
@@ -139,8 +140,8 @@ export const Hero = () => {
                         </div>
 
                     </div>
-                </div>
-                
+                </div> */}
+                <HeroCarousel />
                 <div id="item-2">
                     <div class="hero-grid-item-discount grid-item-discount sm:none">
                         <div style={{

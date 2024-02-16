@@ -251,10 +251,10 @@ a {
   border-radius: 38px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   align-content: flex-end;
-  /* width: 60%; */
-  height: 220px;
+  width: 90%;
+  height: 305px;
   margin: 0px 45px;
 }
 
@@ -265,15 +265,38 @@ a {
   border-radius: 38px;
   display: flex;
   align-items: flex-end;
-  justify-content: space-around;
-  align-content: flex-end;
+  /* justify-content: space-around; */
+  /* align-content: flex-end; */
   width: 90%;
-  height: 220px;
+  height: 300px;
   margin: 0px 45px;
-  z-index: 2;
 
 
 }
+
+.hero-scroller {
+  background-color: #DFE5F3;
+  padding: 5px;
+  /* text-align: center; */
+  border-radius: 38px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  /* align-content: flex-end; */
+  width: 90%;
+  height: 300px;
+  margin: 0px 45px;
+  position: relative;
+
+
+}
+
+
+
+
+
+
+
 
 .hero-top-card {
   background-color: #5C75B8;
@@ -307,7 +330,7 @@ a {
   background-color: #ffffff;
   /* font-size: 17px; */
   font-weight: 600;
-   /* margin-top: 45px; */
+  /* margin-top: 45px; */
 }
 
 #hero-product {
@@ -329,9 +352,12 @@ a {
 }
 
 .scroller-button {
-  color: #ffffff;
-  border-radius: 100%;
+  color: #f1e8e8;
+  border-radius: 69%;
   background-color: #8c8f9c;
+  width: 25px;
+  height: 25px;
+
 
 }
 

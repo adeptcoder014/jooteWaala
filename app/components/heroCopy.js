@@ -3,6 +3,7 @@
 
 import Image from 'next/image'
 import { Navigation } from './navigation'
+import HeroCarousel from './heroCarousel';
 
 export const Hero = () => {
 
@@ -12,7 +13,7 @@ export const Hero = () => {
             <div>
                 {/* ============== HERO_TOP_CARD ====================================== */}
 
-                {/* <div>
+                <div>
                     <div className="hero-top-card">
                         <h1
                             className='responsive-hero-title'
@@ -32,7 +33,7 @@ export const Hero = () => {
                             justifyContent: 'space-between',
                         }}>
 
-                            <Image
+                            {/* <Image
                                 className='hide-on-mobile'
                                 style={{
                                     marginLeft: 88,
@@ -43,7 +44,7 @@ export const Hero = () => {
                                 width={520}
                                 height={470}
 
-                            />
+                            /> */}
 
 
                             <div className='grid-item-explore-more'>
@@ -77,12 +78,12 @@ export const Hero = () => {
                     </div>
 
 
-                </div> */}
+                </div>
 
                 <div className='hero-grid'>
                     {/* ============== HERO_CAROUSEL_CARD ====================================== */}
 
-                    <div>
+                    {/* <div>
 
                         <div className="hero-grid-item-scroller">
                             <div style={{
@@ -91,6 +92,9 @@ export const Hero = () => {
                                 alignContent: 'space-between',
                                 justifyContent: 'space-around',
                                 gap: 8,
+                                width: '100%',
+                                marginBottom:45
+
 
 
                             }}>
@@ -103,6 +107,18 @@ export const Hero = () => {
                                     height: 15,
 
                                 }}>
+                                    <img
+                                        // className='hide-on-mobile'
+                                        style={{
+                                            marginLeft: 88,
+                                            position: 'absolute',
+                                            top: '8%',
+                                        }}
+                                        src={'/hero-product_1.png'}
+                                        width={520}
+                                        height={470}
+
+                                    />
 
                                     <div className='scroller'>
                                     </div>
@@ -145,13 +161,12 @@ export const Hero = () => {
                         </div>
 
 
-                    </div>
-
+                    </div> */}
+                    <HeroCarousel />
                     {/* ============== DISCOUNT_CARD ====================================== */}
                     <div className="center">
 
 
-                        {/* <div> */}
 
                         <div class="hero-grid-item-discount">
                             <div style={{
@@ -191,18 +206,14 @@ export const Hero = () => {
                                 className='productDisplayCarouselImage'
                                 src={'/handbag.png'}
                             />
-                            {/* <Image
-                                    src={'/handbag.png'}
-                                    width={220}
-                                    height={210}
-
-                                /> */}
+                          
 
                         </div>
 
 
-                        {/* </div> */}
                     </div>
+                    {/* ==================================================== */}
+
                 </div>
             </div>
 

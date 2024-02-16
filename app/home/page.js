@@ -28,7 +28,7 @@ export default function Home() {
       {/* <HurryUpCard /> */}
       {/* <Footer /> */}
       {/* </div> */}
-      <DemoComponent />
+      {/* <DemoComponent /> */}
 
     </>
   );
