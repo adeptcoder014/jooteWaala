@@ -1,16 +1,19 @@
-"use client"; // This is a client component 👈🏽
+// "use client"; // This is a client component 👈🏽
 
 
-import Image from 'next/image'
+// import Image from 'next/image'
 import { Navigation } from './navigation'
 import HeroCarousel from './heroCarousel';
+// import { useEffect } from 'react';
+// import axios from 'axios';
+import { headers } from 'next/headers';
 
-export const Hero = () => {
+export const HeroCopy = () => {
 
 
     return (
         <>
-            <div>
+            <div className='hide-on-mobile'>
                 {/* ============== HERO_TOP_CARD ====================================== */}
 
                 <div>
@@ -206,7 +209,7 @@ export const Hero = () => {
                                 className='productDisplayCarouselImage'
                                 src={'/handbag.png'}
                             />
-                          
+
 
                         </div>
 
@@ -216,6 +219,143 @@ export const Hero = () => {
 
                 </div>
             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+            {/* <div className=''> */}
+            {/* ============== HERO_TOP_CARD ====================================== */}
+            <div
+                style={{
+                    display: 'flex',
+                    flexDirection: 'column'
+                }}
+                className='hide-on-desktop'
+            >
+
+
+
+                <div style={{
+                    display: 'flex',
+                    justifyContent: 'center'
+                }}>
+                    <div className="hero-top-card-mobile">
+                        <h1 className='hero-top-card-h1-mobile'>
+                            Modern Leather Shoes
+                        </h1>
+
+
+
+
+
+
+
+                        {/* <div className='grid-item-explore-more'> */}
+
+
+                        <p
+                            style={{
+                                fontSize: 16,
+                                textAlign: "center",
+                                marginTop: 35
+                                // fontWeight: 300
+                            }}>
+                            Discover a curated collection of hadcrafted pieces of designed
+                            to transform your shoes comfort zone nd style to the next level
+
+
+                        </p>
+                        <div className='hero-button'>
+                            <p>
+
+                                Explore more
+                            </p>
+
+
+
+
+                        </div>
+
+
+                        {/* </div> */}
+
+                    </div>
+
+
+                </div>
+
+
+                {/* ============== Hero_Carousel ====================================== */}
+                <div>
+
+                    <HeroCarousel />
+                </div>
+                {/* ============== DISCOUNT_CARD ====================================== */}
+
+
+                <div className='center'>
+
+
+                    <div class="hero-grid-item-discount-mobile">
+                        <div style={{
+                            height: '100%',
+                            display: 'flex',
+                            flexDirection: 'column',
+                            justifyContent: 'space-center',
+                            textAlign: 'center'
+                        }}>
+                            <div>
+
+
+                                <h1 style={{
+                                    color: '#836A24',
+                                    fontWeight: 'bold',
+                                    fontSize: 'xx-large'
+                                }}>
+                                    Leather Handbag
+
+                                </h1>
+                                <h1 style={{
+                                    color: '#836A24',
+                                    fontWeight: 'bold',
+                                    fontSize: 'xx-large'
+                                }}>
+
+                                    50% OFF
+                                </h1>
+                            </div>
+                            <img
+
+                                // style={{
+                                //     maxWidth: '100%'
+                                // }}
+                                className='productDisplayCarouselImage'
+                                src={'/handbag.png'}
+                            />
+                            <div className='hero-button-2'>
+                                <p> Explore more</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+            {/* ==================================================== */}
+
+            {/* </div> */}
+
 
         </>
 

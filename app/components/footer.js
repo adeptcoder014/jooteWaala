@@ -6,9 +6,7 @@ export const Footer = () => {
         <>
 
             {/* <div class="sm:text-left lg:text-center lg:bg-purple"> */}
-            <div class="">
-                <h1 class='text-center sm:text-left md:text-right'>hello</h1>
-            </div >
+         
 
 
 
@@ -16,37 +14,40 @@ export const Footer = () => {
             <footer class="bg-white dark:bg-gray-900">
                 <div class="mx-auto w-full max-w-screen-xl">
                     <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
-                        <div>
-                            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h2>
-                            <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                                <li class="mb-4">
-                                    <a href="#" class=" hover:underline">About</a>
-                                </li>
-                                <li class="mb-4">
-                                    <a href="#" class="hover:underline">Careers</a>
-                                </li>
-                                <li class="mb-4">
-                                    <a href="#" class="hover:underline">Brand Center</a>
-                                </li>
-                                <li class="mb-4">
-                                    <a href="#" class="hover:underline">Blog</a>
-                                </li>
-                            </ul>
+                        <div style={{
+                            // backgroundColor: 'red'
+
+                            marginBottom: 14
+
+                        }}>
+                            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">LeatherFy</h2>
+
+                            {/* <a href="#" class=" hover:underline">About</a> */}
+                            <a href="#" className="footer-sub-text">41/587 Narahi, Hazratganj,
+                                <br />
+                                Lucknow -<strong>226001</strong></a>
+                            <div>
+
+                                <button className='footer-contact-us-btn'>
+                                    Contact Us
+                                </button>
+                            </div>
+
                         </div>
                         <div>
                             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Help center</h2>
                             <ul class="text-gray-500 dark:text-gray-400 font-medium">
                                 <li class="mb-4">
-                                    <a href="#" class="hover:underline">Discord Server</a>
+                                    <a href="#" className="footer-sub-text">Discord Server</a>
                                 </li>
                                 <li class="mb-4">
-                                    <a href="#" class="hover:underline">Twitter</a>
+                                    <a href="#" className="footer-sub-text">Twitter</a>
                                 </li>
                                 <li class="mb-4">
-                                    <a href="#" class="hover:underline">Facebook</a>
+                                    <a href="#" className="footer-sub-text">Facebook</a>
                                 </li>
                                 <li class="mb-4">
-                                    <a href="#" class="hover:underline">Contact Us</a>
+                                    <a href="#" className="footer-sub-text">Contact Us</a>
                                 </li>
                             </ul>
                         </div>
@@ -54,13 +55,13 @@ export const Footer = () => {
                             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
                             <ul class="text-gray-500 dark:text-gray-400 font-medium">
                                 <li class="mb-4">
-                                    <a href="#" class="hover:underline">Privacy Policy</a>
+                                    <a href="#" className="footer-sub-text">Privacy Policy</a>
                                 </li>
                                 <li class="mb-4">
-                                    <a href="#" class="hover:underline">Licensing</a>
+                                    <a href="#" className="footer-sub-text">Licensing</a>
                                 </li>
                                 <li class="mb-4">
-                                    <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                                    <a href="#" className="footer-sub-text">Terms &amp; Conditions</a>
                                 </li>
                             </ul>
                         </div>
@@ -68,22 +69,22 @@ export const Footer = () => {
                             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Download</h2>
                             <ul class="text-gray-500 dark:text-gray-400 font-medium">
                                 <li class="mb-4">
-                                    <a href="#" class="hover:underline">iOS</a>
+                                    <a href="#" className="footer-sub-text">iOS</a>
                                 </li>
                                 <li class="mb-4">
-                                    <a href="#" class="hover:underline">Android</a>
+                                    <a href="#" className="footer-sub-text">Android</a>
                                 </li>
                                 <li class="mb-4">
-                                    <a href="#" class="hover:underline">Windows</a>
+                                    <a href="#" className="footer-sub-text">Windows</a>
                                 </li>
                                 <li class="mb-4">
-                                    <a href="#" class="hover:underline">MacOS</a>
+                                    <a href="#" className="footer-sub-text">MacOS</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="px-4 py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-between">
-                        <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2023 <a href="https://flowbite.com/">Flowbite™</a>. All Rights Reserved.
+                        <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2024 <a href="https://flowbite.com/">JooteWaala™</a>. All Rights Reserved.
                         </span>
                         <div class="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
                             <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">

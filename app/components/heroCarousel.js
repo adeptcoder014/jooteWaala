@@ -1,5 +1,7 @@
-import React from 'react';
-import Image from 'next/image'
+"use client"; // This is a client component 👈🏽
+
+// import React from 'react';
+// import Image from 'next/image'
 // import ProductDisplayCard from './productDisplayCard';
 
 
@@ -91,7 +93,7 @@ const HeroCarousel = () => {
             <div className="hero-scroller">
 
                 <img
-                    // className='hide-on-mobile'
+                    className='hero-carousel-image'
                     style={{
                         marginLeft: 88,
                         position: 'absolute',

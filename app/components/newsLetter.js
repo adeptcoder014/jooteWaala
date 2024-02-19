@@ -7,13 +7,11 @@ export const NewsLetter = () => {
     return (
         <>
             <div className='news-letter-container'>
-                <h2 style={{
-                    textAlign: 'center'
-                }}>Subscribe to our newsletter and
+                <h2 className='news-letter-h2'>Subscribe to our newsletter and
 
 
                     <br />
-                    grab <strong>30% OFF!</strong>
+                    grab <strong style={{color:'black'}}>30% OFF!</strong>
 
                 </h2>
 

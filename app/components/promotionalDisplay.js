@@ -17,9 +17,8 @@ export const PromotionalDisplay = () => {
             <div>
                 <div className='PromotionalDisplay-container'>
 
-                    <div className='PromotionalDisplay-product'
-                    >
-                        <h1>wew</h1>
+                    <div className='PromotionalDisplay-product'>
+                        {/* <h1>wew</h1> */}
                         <Image
                             className=''
                             style={{
@@ -38,11 +37,22 @@ export const PromotionalDisplay = () => {
                     }}> */}
                     <div className='PromotionalDisplay-description'>
 
-                        <h1 style={{
-                            width: '259px',
-                            marginBottom: '5%'
+                        <h1 className='center-text-md' style={{
+                            width: '277px',
+                            marginBottom: '5%',
+
+                            'fontSize': '2.65rem',
+                            'fontWeight': 'bolder',
+
                         }}>Get ready for summers</h1>
-                        <p>
+                        <p style={{
+                            // width: '277px',
+                            marginBottom: '5%',
+                            color: 'grey'
+                            ,                // 'fontSize': '2.65rem',
+                            'fontWeight': 'bolder',
+
+                        }}>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquam a nulla sed aliquam. Morbi ornare in justo mattis scelerisque. Suspendisse et tellus at justo
                         </p>
                     </div>

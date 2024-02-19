@@ -3,6 +3,11 @@
 
 import Image from 'next/image'
 import { Navigation } from './navigation'
+import { LuHeart } from "react-icons/lu";
+import { FiShoppingCart } from "react-icons/fi";
+import { LuUser2 } from "react-icons/lu";
+
+
 
 export const Header = () => {
 
@@ -14,15 +19,20 @@ export const Header = () => {
             <div className="header-container">
 
                 <div className="logo-section">
+
                     < Image
                         src={'/logo.png'}
                         width={42}
                         height={42}
                     />
                     <h1 style={{
-                        fontSize: 14
+                      'fontSize': '1.65rem',
+                      'fontWeight': 'bolder',
+                      color: 'gray'
+
+
                     }}>
-                        JottWalla
+                        JooteWaala
                     </h1>
 
                 </div>
@@ -30,11 +40,26 @@ export const Header = () => {
                     <Navigation />
                 </div>
                 <div className="login-cart">
-                    < Image
+                    <div className='login-icons'>
+
+                        <LuHeart />
+                    </div>
+                    <div className='login-icons'>
+
+                        <FiShoppingCart />
+                    </div>
+                    <div className='login-icons FFD873'>
+
+                        <LuUser2 />
+                    </div>
+
+
+                    {/* < Image
                         src={'/login-cart.svg'}
                         width={150}
                         height={42}
-                    />
+                    /> */}
+                    {/* <LuHeart /> */}
 
                 </div>
 
