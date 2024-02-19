@@ -25,7 +25,7 @@ export const HurryUpCard = () => {
                 const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
                 const seconds = Math.floor((difference % (1000 * 60)) / 1000);
 
-                console.log(' days, hours, minutes, seconds -----------', days, hours, minutes, seconds);
+                // console.log(' days, hours, minutes, seconds -----------', days, hours, minutes, seconds);
                 return { days, hours, minutes, seconds };
             } else {
                 return { days: 0, hours: 0, minutes: 0, seconds: 0 };

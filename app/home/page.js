@@ -46,7 +46,7 @@ export default function Home() {
 
 
       <Header />
-      <Hero />
+      <HeroCopy />
       <div
         style={{
           backgroundColor: 'red',
