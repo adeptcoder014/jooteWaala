@@ -17,7 +17,8 @@ export const DailyOfferInfo = () => {
             <div className="dailyOffer-info">
                 <h1
                     style={{
-                        color: "grey"
+                        'fontSize': '2.65rem',
+                        'fontWeight': 'bolder',
                     }}
                 >
                     Daily Offer

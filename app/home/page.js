@@ -20,15 +20,15 @@ export default function Home() {
 
       {/* <Header /> */}
       {/* <Hero /> */}
-      <DisplayCard />
-      {/* <DailyOffer /> */}
+      {/* <DisplayCard /> */}
+      <DailyOffer />
       {/* <PromotionalDisplay /> */}
+      {/* <DemoComponent /> */}
       {/* <LatestArrivals /> */}
       {/* <NewsLetter /> */}
       {/* <HurryUpCard /> */}
       {/* <Footer /> */}
       {/* </div> */}
-      {/* <DemoComponent /> */}
 
     </>
   );

@@ -18,27 +18,28 @@ export const DailyOffer = () => {
     return (
         <>
 
-            <div className="layout-container">
 
-                <div className="dailyOffer-card-container">
-                    <div style={{
-                        // backgroundColor: 'green',
-                        display: 'flex',
-                        justifyContent: 'center',
-                        width:'100%'
-                    }}>
+            {/* <div className="dailyOffer-card-container">
+                <div style={{
+                    display: 'flex',
 
-                        <DailyOfferInfo />
-                    </div>
-                    <div className='dailyOffer-product-container'>
-                        <DailyOfferProduct />
-                    </div>
+                }}>
 
                 </div>
+                <div className='dailyOffer-product-container'>
+                </div>
 
+            </div> */}
 
-
+            <div className='dailyOffer-card-container'>
+                    <DailyOfferInfo />
+                    <DailyOfferProduct />
             </div>
+
+            
+
+
+
 
 
 
