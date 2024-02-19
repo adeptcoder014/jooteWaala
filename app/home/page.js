@@ -59,7 +59,7 @@ export default function Home() {
       >
         {displayCardData.map(x => (
 
-          <DisplayCard title={x.title} />
+          <DisplayCard key={x} title={x.title} />
         ))
         }
       </div>
