@@ -14,6 +14,7 @@ export const DemoComponent = () => {
                 <h1
                     style={{
                         'fontSize': '2.65rem',
+                        'color': 'black',
                         'fontWeight': 'bolder',
                     }}
                 >Our latest arrivals</h1>

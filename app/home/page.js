@@ -11,6 +11,33 @@ import { Footer } from "../components/footer";
 import { DemoComponent } from "../components/test";
 // import styles from "./page.module.css";
 
+
+//=============================================================
+
+const displayCardData = [{
+  title: 'Shoes',
+  image: '/belt.svg'
+},
+{
+  title: 'Belt',
+  image: '/belt.svg'
+},
+{
+  title: 'Purse',
+  image: '/belt.svg'
+},
+{
+  title: 'Bracelet',
+  image: '/belt.svg'
+},
+{
+  title: 'Buckle',
+  image: '/belt.svg'
+}
+]
+//=============================================================
+
+
 export default function Home() {
   return (
     <>
@@ -19,11 +46,27 @@ export default function Home() {
 
 
       <Header />
-      <HeroCopy />
-      <DisplayCard />
+      <Hero />
+      <div
+        style={{
+          backgroundColor: 'red',
+          display: 'flex',
+          flexWrap:'wrap',
+          justifyContent:'center',
+          
+          // alignContent:'center'
+        }}
+      >
+        {displayCardData.map(x => (
+
+          <DisplayCard title={x.title} />
+        ))
+        }
+      </div>
+
       <DailyOffer />
-      <PromotionalDisplay />
       <DemoComponent />
+      <PromotionalDisplay />
       {/* <LatestArrivals /> */}
       <NewsLetter />
       <HurryUpCard />
