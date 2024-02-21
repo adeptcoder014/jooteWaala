@@ -1155,6 +1155,8 @@ a {
   border-radius: 19px;
   margin: auto;
   padding: 2%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .border-custom {
