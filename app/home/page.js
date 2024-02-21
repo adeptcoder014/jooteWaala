@@ -47,13 +47,26 @@ export default function Home() {
 
       <Header />
       <HeroCopy />
+      <div>
+
+        <h1
+          style={{
+            'fontSize': '2.65rem',
+            'fontWeight': 'bolder',
+            margin:50
+          }}
+        >
+          Popular Categories
+        </h1>
+      </div>
       <div
         style={{
-          backgroundColor: 'red',
+          // backgroundColor: 'red',
           display: 'flex',
-          flexWrap:'wrap',
-          justifyContent:'center',
-          
+          flexWrap: 'wrap',
+          justifyContent: 'center',
+          // marginTop: 80,
+
           // alignContent:'center'
         }}
       >

@@ -234,10 +234,10 @@ export const HeroCopy = () => {
             {/* <div className=''> */}
             {/* ============== HERO_TOP_CARD ====================================== */}
             <div
-                style={{
-                    display: 'flex',
-                    flexDirection: 'column'
-                }}
+                // style={{
+                //     display: 'flex',
+                //     flexDirection: 'column'
+                // }}
                 className='hide-on-desktop'
             >
 

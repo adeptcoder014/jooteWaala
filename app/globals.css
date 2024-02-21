@@ -102,7 +102,7 @@ a {
 
 /* Media Queries ================================================================== */
 
-@media (min-width: 800px) {
+@media (min-width: 500px) {
 
   .hide-on-desktop {
     display: none;
@@ -1010,7 +1010,7 @@ a {
 } */
 
 .productDisplayCarouselImage {
-  /* height: 100%; */
+  max-height: 100%;
 }
 
 
